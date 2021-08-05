@@ -1,7 +1,6 @@
 <?php
 class Qiwi
 {
-  public $public_key, $secret_key;
   function __construct($public_key, $secret_key)
   {
     $this->public_key = $public_key;
